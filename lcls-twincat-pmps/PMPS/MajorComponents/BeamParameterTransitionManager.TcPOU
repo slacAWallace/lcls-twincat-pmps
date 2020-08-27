@@ -176,7 +176,7 @@ bFinalAssertionFailed := NOT fbArbiter.AddRequest(
     stTargetAssertion
 );
 
-IF bTransAssertionFailed THEN
+IF bFinalAssertionFailed THEN
     LogActions('Assert final failed. ');
     nAssrtAttempt := nAssrtAttempt + 1;
     IF nAssrtAttempt > cAssrtMax THEN
