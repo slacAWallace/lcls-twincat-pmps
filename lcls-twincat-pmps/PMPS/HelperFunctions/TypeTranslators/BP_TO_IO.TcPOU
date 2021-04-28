@@ -21,7 +21,7 @@ END_FOR
 
 BP_TO_IO.aVetoDevices := BP.aVetoDevices;
 BP_TO_IO.nTran := BP.nTran;
-BP_TO_IO.nCohortInt := ULINT_TO_UDINT(BP.nCohortInt);
+BP_TO_IO.nCohortInt := BP.nCohortInt;
 BP_TO_IO.neVRange := BP.neVRange;
 BP_TO_IO.nRate := BP.nRate;
 BP_TO_IO.xValid := BP.xValid;
